@@ -95,12 +95,12 @@
 
 <meta name="description" content="他啊，就是那个他">
 <meta property="og:type" content="website">
-<meta property="og:title" content="焦糖布丁">
+<meta property="og:title" content="Stay With Me">
 <meta property="og:url" content="http://yoursite.com/archives/2017/07/index.html">
-<meta property="og:site_name" content="焦糖布丁">
+<meta property="og:site_name" content="Stay With Me">
 <meta property="og:description" content="他啊，就是那个他">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="焦糖布丁">
+<meta name="twitter:title" content="Stay With Me">
 <meta name="twitter:description" content="他啊，就是那个他">
 
 
@@ -118,9 +118,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: '24GE3QCTO3',
+      apiKey: '093773a266ca27225919e96cc38d77a6',
+      indexName: 'staywisme',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -135,7 +135,7 @@
 
 
 
-  <title>归档 | 焦糖布丁</title>
+  <title>归档 | Stay With Me</title>
   
 
 
@@ -181,12 +181,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">焦糖布丁</span>
+        <span class="site-title">Stay With Me</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">来啦，坐吧。</p>
+        <p class="site-subtitle"></p>
       
   </div>
 
@@ -267,9 +267,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -580,6 +618,19 @@
   
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.1"></script>
 
 
 
