@@ -515,12 +515,6 @@
 
     <div class="post-spread">
       
-        
-<script>
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
-
-      
     </div>
   </div>
 
@@ -531,6 +525,22 @@
 
           
   <div class="comments" id="comments">
+    
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+      <script>
+        var gitment = new Gitment({
+        // 根据文章标题设置唯一评论id
+        id: '',
+        owner: 'chenpippin',
+        repo: 'http://staywis.me',
+        oauth: {
+        client_id: '7069042701b85a758143',
+        client_secret: 'ed7ebfbd179d5c8cb575759ba77873179859ed10',
+        },
+      })
+      gitment.render('comments')
+      </script>
     
   </div>
 
