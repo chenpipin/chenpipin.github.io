@@ -2,11 +2,11 @@ User-agent: *
 Allow: /
 Allow: /archives/
 
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /lib/
-Disallow: /fancybox/
+Disallow: /js
+Disallow: /css
+Disallow: /fonts
+Disallow: /lib
+Disallow: /fancybox
 
 Sitemap: http://staywis.me/sitemap.xml
 Sitemap: http://staywis.me/baidusitemap.xml
